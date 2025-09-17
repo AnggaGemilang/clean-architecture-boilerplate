@@ -1,0 +1,5 @@
+folder ini digunakan untuk menyimpan autentikasi dan otorisasi, termasuk juga logging telemetry
+
+misalkan di rest api bentuknya berarti middleware
+
+atau kalau logging telemetry yaa berarti, nanti deklarasi routernya dibungkus dulu dengan interceptor ini
