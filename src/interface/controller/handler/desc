@@ -1,1 +1,1 @@
-folder ini digunakan untuk menyimpan handler dari misal receiver kafka atau sejenisnya, tapi tetap proses bisnis dilakukan di service alias use case
+Folder ini digunakan untuk menyimpan handler, misalnya pada receiver driver, ketika driver menerima pesan akan diarahkan ke handler, baru diarahkan ke service
