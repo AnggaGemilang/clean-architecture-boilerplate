@@ -4,7 +4,7 @@
 
 # BE Weather Insight
 
-BE Weather Insight is developed to do some potention prediction, and handle request for visualize trend prediction.
+BE Weather Insight is developed to do some potention prediction, and handle request for visualizing weather trend prediction.
 
 ## Version
 
@@ -55,13 +55,19 @@ Follow these steps to get a development environment running:
     cd be-weather-insight
     ```
 
-3. Install all dependencies:
+3. Initiate go modules:
+
+    ```bash
+    go mod init [SERVICE_NAME] e.g. be-weather-insight
+    ```
+
+4. Install all dependencies:
 
     ```bash
     go mod tidy
     ```
 
-4. Run the application:
+5. Run the application:
 
     ```bash
     go run main.go
